@@ -5,7 +5,105 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 2%;
 }
+
+
+h2 {
+  font-size: medium;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  
+}
+
+.searchBar {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.searchBar input {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.searchBar label {
+  width: 15%;
+  display: inline-block;
+}
+
+.searchBar button {
+  width: 20%;
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  width: 40%;
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+
+}
+
+.UserInfo {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.UserInfo button {
+  width: 20%;
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+
+}
+
+.card {
+  
+  padding: 30px;
+  text-align: center;
+}
+
+.card-img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.details {
+  display: flex;
+
+}
+
+.details-img {
+  flex: 1
+}
+
+
+.details-table {
+  padding-top: 25%;
+flex: 2
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
